@@ -1,0 +1,69 @@
+/* styles.css - Estilo Teatro Real */
+
+:root {
+  --color-bg: #f8f5f0;
+  --color-primary: #8b0000; /* tono granate/dorado oscuro */
+  --color-secondary: #c9a66b; /* dorado suave */
+  --color-text: #2c2c2c;
+  --color-muted: #666;
+  --font-main: 'Georgia', serif;
+  --font-accent: 'Garamond', serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--color-primary);
+  padding: 1rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-family: var(--font-accent);
+}
+
+nav a:hover {
+  color: var(--color-secondary);
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 {
+  color: var(--color-primary);
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--color-secondary);
+  color: #fff;
+  font-family: var(--font-accent);
+  margin-top: 2rem;
+}
